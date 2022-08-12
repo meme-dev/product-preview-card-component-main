@@ -78,8 +78,6 @@ main{
     border-radius: 10px;
     width: 50%;
 }
-
-
 .right {
   flex: 50%;
   display: flex;
@@ -152,7 +150,7 @@ button:hover {
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 375px) {
   main{
     display: flex;
     justify-content: center;
